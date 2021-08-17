@@ -5,6 +5,9 @@ This Artificial Intelligence project was meant to detect the presence (plant) or
 The training was done with Google Colab and these are the steps to follow:
 1. Prepare your dataset and label them in YOLO format using [LabelImg](https://github.com/tzutalin/labelImg). Once done, zip all the images and their corresponding label files as `images.zip`.
 
+Here’s an example of image labeling:
+![GitHub Logo](/training.jpg)
+
 2. Create a folder named `yolov3` on Google Drive and upload the `images.zip` file inside it. The directory structure should look something like the following:
 ```
 yolov3
@@ -12,8 +15,6 @@ yolov3
    |__ *.jpg (all image files)
    |__ *.txt (all annotation files)
 ```
-Here’s the sample of a training data:
-![GitHub Logo](/training.jpg)
 
 3. Clone the repository and upload the `Train_YoloV3_Multiple.ipynb` notebook on Google Colab.(LINK)
 
