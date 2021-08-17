@@ -13,7 +13,7 @@ yolov3
    |__ *.txt (all annotation files)
 ```
 Here’s the sample of a training data:
-![GitHub Logo](/image/training.jpg)
+![GitHub Logo](/training.jpg)
 
 3. Clone the repository and upload the `Train_YoloV3_Multiple.ipynb` notebook on Google Colab.(LINK)
 
@@ -34,4 +34,4 @@ Here’s the sample of a training data:
 
 ## Output:
 Here’s the result of the testing done on a big patch that was cropped then merged:
-![GitHub Logo](/image/output.jpg)
+![GitHub Logo](/output.jpg)
