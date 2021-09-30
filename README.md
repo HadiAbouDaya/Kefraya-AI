@@ -2,7 +2,7 @@
 
 This Artificial Intelligence project was meant to detect the presence (plant) or absence (no_plant) of crops in a field using yolov3 algorithm. The user can decide whether to run the code on small or big patches: in the case of big patches, the input image is cropped into smaller patches and then merged after being tested. The accuracy of our algorithm is of 99.59% : in a picture of 3642 plants and no_plants, 3627 plants were detected 7 plants and 8 no_plants weren’t discovered (while ignoring the no_plants on the bottom of the picture).
 
-The training was done with Google Colab and these are the steps to follow:
+The training was done on Google Colab and these are the steps to follow:
 1. Prepare your dataset and label them in YOLO format using [LabelImg](https://github.com/tzutalin/labelImg). Once done, zip all the images and their corresponding label files as `images.zip`.
 
 Here’s an example of image labeling: (make sure you save the labels in the yolo format)
