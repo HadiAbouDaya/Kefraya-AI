@@ -133,7 +133,7 @@ def test(choice,path,filename):
                     
                     
 def menu():
-    choice=int(input("If you consider that the size of your plants small press 1:/nIf you consider the size of your plants big press 2:/n"))
+    choice=int(input("If you consider that the size of your plants small press 1:\nIf you consider the size of your plants big press 2:\n"))
     return choice
 path=r"C:\Users\LENOVO\Desktop\stage\the code"
 filename=input("insert filename: ")
